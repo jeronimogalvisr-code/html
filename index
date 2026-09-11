@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Index</title>
+	<style>
+		body { font-family: Arial, sans-serif; margin: 2rem; }
+		h1 { color: #222; }
+		p { color: #555; }
+	</style>
+</head>
+
+<body>
+	<h1>Hello, World!</h1>
+	<p>This is a minimal HTML page.</p>
+</body>
+</html>
+echo "# html" >> README.md
+git init
+git add .
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/jeronimogalvisr-code/html.git
+git push -u origin main
